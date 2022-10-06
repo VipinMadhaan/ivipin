@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Vipin Kumar M</title>
+        <link>https://example.com/</link>
+        <description>About FeelIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Vipin.Madhaan@gmail.com (Vipin Kumar M)</managingEditor>
+            <webMaster>Vipin.Madhaan@gmail.com (Vipin Kumar M)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</lastBuildDate>
+            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://example.com/first_post/</link>
+    <pubDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</pubDate><author>Vipin.Madhaan@gmail.com (Vipin Kumar M)</author><guid>https://example.com/first_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
