@@ -254,7 +254,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/logo.webp"
+      logo = "/ivipin.webp"
       # title name
       name = "Vipin Kumar M"
       # you can add extra information before the name (HTML format is supported), such as icons

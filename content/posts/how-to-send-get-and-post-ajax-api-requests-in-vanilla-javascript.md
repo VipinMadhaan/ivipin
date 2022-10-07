@@ -9,6 +9,8 @@ description: 'Guide to write JavaScript GET or POST Ajax API requests without jQ
 resources:
   - name: 'javascript'
     src: '/javascript.webp'
+  - name: 'javascript-preview'
+    src: '/javascript-preview.webp'
 tags: ['JavaScript', 'Ajax']
 categories: ['JavaScript']
 ---
