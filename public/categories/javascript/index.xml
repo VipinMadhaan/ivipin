@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Vipin Kumar M</title>
-        <link>https://ivipin.com/</link>
-        <description>Hello, My name is Vipin Kumar M. I&#39;m a passionate full-stack developer from India, and I&#39;m here to share my knowledge and experience from over 8 years of web development with you.</description>
+        <title>JavaScript - Category - Vipin Kumar M</title>
+        <link>https://ivipin.com/categories/javascript/</link>
+        <description>JavaScript - Category - Vipin Kumar M</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Vipin.Madhaan@gmail.com (Vipin Kumar M)</managingEditor>
-            <webMaster>Vipin.Madhaan@gmail.com (Vipin Kumar M)</webMaster><copyright>Vipin Kumar M</copyright><lastBuildDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</lastBuildDate>
-            <atom:link href="https://ivipin.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>Vipin.Madhaan@gmail.com (Vipin Kumar M)</webMaster><copyright>Vipin Kumar M</copyright><lastBuildDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</lastBuildDate><atom:link href="https://ivipin.com/categories/javascript/" rel="self" type="application/rss+xml" /><item>
     <title>How to send GET and POST Ajax API requests in Vanilla JavaScript</title>
     <link>https://ivipin.com/how-to-send-get-and-post-ajax-api-requests-in-vanilla-javascript/</link>
     <pubDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</pubDate><author>Vipin.Madhaan@gmail.com (Vipin Kumar M)</author><guid>https://ivipin.com/how-to-send-get-and-post-ajax-api-requests-in-vanilla-javascript/</guid>
