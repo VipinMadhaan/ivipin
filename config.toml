@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://ivipin.com"
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "en"
 # theme
@@ -30,9 +30,17 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # default amount of posts in each pages
     paginate = 12
     # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    copyright = ""
     # Menu config
     [languages.en.menu]
+       [[languages.en.menu.main]]
+        identifier = "home"
+        pre = ""
+        post = ""
+        name = "Home"
+        url = "/"
+        title = ""
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "posts"
         # you can add extra information before the name (HTML format is supported), such as icons
@@ -42,14 +50,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         name = "Posts"
         url = "/posts/"
         # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
         title = ""
         weight = 2
       [[languages.en.menu.main]]
@@ -61,14 +61,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
@@ -76,6 +68,14 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/about/"
         title = ""
         weight = 5
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        pre = ""
+        post = ""
+        name = "Contact"
+        url = "/contact/"
+        title = ""
+        weight = 6
       [[languages.en.menu.footer]]
         identifier = "home"
         pre = ""
@@ -118,13 +118,13 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         weight = 2
     [languages.en.params]
       # site description
-      description = "About FeelIt Theme"
+      description = "About Vipin Kumar M"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "FeelIt"
+        title = "Vipin Kumar M"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -168,12 +168,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Personal Information"
         # general description of your site
         # can be write with markdown style
-        description = "[FeelIt](https://github.com/vipinmadhaan/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [vipinmadhaan](https://ivipin.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+        description = "[FeelIt](https://github.com/VipinMadhaan/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Vipin Kumar M](https://ivipin.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
           title = "Company"
-          desc = "FeelIt"
+          desc = "Freelancer"
         [[languages.en.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
           title = "Occupation"
@@ -203,11 +203,11 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/profile.webp"
+          avatarURL = "/profile.webp"
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you. I will be writing about how to become a better web developer."
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -250,15 +250,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # desktop header mode ("fixed", "normal", "auto")
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
+    mobileMode = "fixed"
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "/logo.webp"
       # title name
-      name = "FeelIt"
+      name = "Vipin Kumar M"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='fas fa-hand-holding-heart fa-fw'></i>"
+      pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
@@ -333,11 +333,11 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to use the fontawesome as cdn source
-    cdnfontawesome = true
+    cdnfontawesome = false
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # whether to show link to improve the article
-    improveArticle = "https://github.com/vipinmadhaan/FeelIt/edit/main/exampleSite/content/"
+    improveArticle = "https://github.com/VipinMadhaan/FeelIt/edit/main/exampleSite/content/"
     # whether to show the full text content in RSS
     rssFullText = false
     # Table of the contents config
@@ -353,7 +353,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+      maxShownLines = 100
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
       enable = false
@@ -421,14 +421,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         enable = true
-        repo = "VipinMadhaan/FeelIt"
-        repo_id="R_kgDOIEg6Uw"
+        repo = "VipinMadhaan/iVipin"
+        repo_id="R_kgDOIJKaTQ"
         category="Show and tell"
-        category_id="DIC_kwDOIEg6U84CRuX6"
-        mapping="pathname"
+        category_id="DIC_kwDOIJKaTc4CR2BV"
+        mapping="title"
         reactions_enabled="1"
-        lightTheme = "light"
-        darkTheme = "dark"
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
@@ -592,7 +590,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # TypeIt config
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
-    speed = 100
+    speed = 70
     # blinking speed of the cursor (measured in milliseconds)
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
@@ -611,9 +609,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # Site SEO config
   [params.seo]
     # image URL
-    image = "/images/Apple-Devices-Preview.webp"
+    image = "/vipin.webp"
     # thumbnail URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = "/vipin.webp"
 
   # Analytics config
   [params.analytics]
