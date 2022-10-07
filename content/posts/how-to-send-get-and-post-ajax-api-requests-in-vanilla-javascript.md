@@ -7,12 +7,14 @@ author: 'Vipin Kumar M'
 authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript GET or POST Ajax API requests without jQuery.'
 resources:
-  - name: 'javascript'
-    src: '/javascript.webp'
-  - name: 'javascript-preview'
-    src: '/javascript-preview.webp'
+  - name: 'featured-image'
+    src: 'javascript.webp'
+  - name: 'featured-image-preview'
+    src: '/static/featured-image-preview.webp'
 tags: ['JavaScript', 'Ajax']
 categories: ['JavaScript']
+
+lightgallery: true
 ---
 
 Ajax is an asynchronous JavaScript and XML mechanism for updating a portion of a page.
