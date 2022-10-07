@@ -30,7 +30,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # default amount of posts in each pages
     paginate = 12
     # copyright description used only for seo schema
-    copyright = ""
+    copyright = "Vipin Kumar M"
     # Menu config
     [languages.en.menu]
        [[languages.en.menu.main]]
@@ -118,7 +118,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         weight = 2
     [languages.en.params]
       # site description
-      description = "About Vipin Kumar M"
+      description = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you."
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -153,9 +153,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+          index = "website"
+          appID = "59EVN4WST7"
+          searchKey = "12d081525d8ce79ea2e4c88b97a35dcd"
 
       # About page config
       [languages.en.params.about]
@@ -201,11 +201,11 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # URL of avatar shown in home page
           avatarURL = "/profile.webp"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "Vipin Kumar M"
           # subtitle shown in home page (HTML format is supported)
           subtitle = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you."
           # whether to use typeit animation for subtitle
-          typeit = true
+          typeit = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -250,7 +250,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/ivipin.webp"
+      logo = "/logo.webp"
       # title name
       name = "Vipin Kumar M"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -281,8 +281,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license= ""
-    #'<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= '<a rel="license external nofollow noopener noreffer" href="https://ivipin.com" target="_blank">ivipin.com</a>'
 
   # Section (all posts) page config
   [params.section]
@@ -509,7 +508,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # Page SEO config
     [params.page.seo]
       # image URL
-      images = []
+      images = ["/vipin.webp", "/logo.webp"]
       # Publisher info
       [params.page.seo.publisher]
         name = "Vipin Kumar M"

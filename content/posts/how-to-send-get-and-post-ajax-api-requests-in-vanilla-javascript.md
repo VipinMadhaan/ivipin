@@ -8,9 +8,9 @@ authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript GET or POST Ajax API requests without jQuery.'
 resources:
   - name: 'featured-image'
-    src: 'javascript.webp'
+    src: 'featured-image.webp'
   - name: 'featured-image-preview'
-    src: '/static/featured-image-preview.webp'
+    src: 'featured-image-preview.webp'
 tags: ['JavaScript', 'Ajax']
 categories: ['JavaScript']
 
