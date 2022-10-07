@@ -168,7 +168,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Personal Information"
         # general description of your site
         # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+        description = "[FeelIt](https://github.com/vipinmadhaan/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [vipinmadhaan](https://ivipin.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
@@ -203,7 +203,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.webp"
+          avatarURL = "/images/profile.webp"
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page (HTML format is supported)
@@ -226,15 +226,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # FeelIt theme version
   version = "1.0.X"
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/khusika/FeelIt"
+  gitRepo = "https://github.com/VipinMadhaan/FeelIt"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/vipin.webp"]
   # whether to enable CSS and JS source mapping
   SourceMap = false
 
@@ -337,7 +337,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # whether to show link to improve the article
-    improveArticle = "https://github.com/khusika/FeelIt/edit/main/exampleSite/content/"
+    improveArticle = "https://github.com/vipinmadhaan/FeelIt/edit/main/exampleSite/content/"
     # whether to show the full text content in RSS
     rssFullText = false
     # Table of the contents config
@@ -421,13 +421,14 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         enable = true
-        repo = "vipinmadhaan/FeelIt"
+        repo = "VipinMadhaan/FeelIt"
         repo_id="R_kgDOIEg6Uw"
         category="Show and tell"
         category_id="DIC_kwDOIEg6U84CRuX6"
         mapping="pathname"
         reactions_enabled="1"
-        theme = "light"
+        lightTheme = "light"
+        darkTheme = "dark"
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
@@ -438,7 +439,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         enable = false
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         platform = "github"
-        owner = "khusika"
+        owner = "VipinMadhaan"
         repo = "comments"
         clientId = "85f66799bb256a5064be"
         clientSecret = ""
@@ -518,7 +519,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Publisher info
       [params.page.seo.publisher]
         name = "Vipin Kumar M"
-        logoUrl = "/images/avatar.webp"
+        logoUrl = "/vipin.webp"
 
   # Social config in home page
   [params.social]
