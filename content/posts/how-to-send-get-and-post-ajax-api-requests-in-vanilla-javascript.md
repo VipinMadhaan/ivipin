@@ -6,14 +6,10 @@ draft: false
 author: 'Vipin Kumar M'
 authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript GET or POST Ajax API requests without jQuery.'
-resources:
-  - name: 'featured-image'
-    src: 'featured-image.webp'
-  - name: 'featured-image-preview'
-    src: 'featured-image-preview.webp'
+featuredImage: '/javascript.webp'
+featuredImagePreview: '/javascript-preview.webp'
 tags: ['JavaScript', 'Ajax']
 categories: ['JavaScript']
-
 lightgallery: true
 ---
 
