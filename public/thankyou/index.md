@@ -1,13 +1,11 @@
-# 
+# Contact Me
 
 
-<div class="text-center">
+<div class="contact-center">
   <h1>Thank you for contacting me!</h1>
-  <p>I will reply you as soon as possible.</p>
-  <h1 class="mt-5">
-    <span class="badge badge-dark font-weight-normal">
-      <a href="{{site.baseurl}}/" class="button-link">Home Page</a>
-    </span>
-  </h1>
+  <p class="contact-subtitle">I will reply you as soon as possible.</p>
+  <button class="contact-form-btn">
+    <a href="/" title="Home">Home Page</a>
+  </button>
 </div>
 

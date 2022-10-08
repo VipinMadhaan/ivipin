@@ -1,8 +1,14 @@
 ---
-layout: page
-title: Privacy Policy
-permalink: /privacy-policy/
-comments: false
+title: 'Privacy Policy'
+date: 2022-10-06T11:58:42+05:30
+lastmod: 2022-10-06T11:58:42+05:30
+draft: false
+author: 'Vipin Kumar M'
+authorLink: 'https://ivipin.com/about'
+description: ''
+postFooter: false
+comment:
+  enable: false
 ---
 
 ### Information that is gathered from visitors

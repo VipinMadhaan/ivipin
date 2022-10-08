@@ -1,8 +1,5 @@
 ---
-layout: page
 title: 'About Me'
-permalink: '/about/'
-
 ---
 
 Hello, My name is **Vipin Kumar M**. I'm a passionate full-stack developer from India.
