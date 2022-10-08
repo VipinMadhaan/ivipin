@@ -14,7 +14,7 @@ enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
-googleAnalytics = ""
+googleAnalytics = "GTM-TS9R24Q"
 
 ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken"]
 
@@ -277,7 +277,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # whether to show the author
     author = true
     # site creation time
-    since = 2019
+    since = 2022
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -365,7 +365,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS
-      # Mapbox GL JS 的 access token
+      # Mapbox GL JS access token
       accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
       # style for the light theme
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
@@ -595,11 +595,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
-    bing = ""
+    google = "google-site-verification=Iv7Ykyoy37qO1y8uh_uz8MXCk5a6pH31QUg0_5kqNmM"
+    bing = "dcC8BZLtJWjSqSKMfDQA"
     yandex = ""
     pinterest = ""
     baidu = ""
+    followit = "dcC8BZLtJWjSqSKMfDQA"
 
   # Site SEO config
   [params.seo]
