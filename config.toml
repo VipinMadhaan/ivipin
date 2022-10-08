@@ -611,7 +611,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "GTM-TS9R24Q"
+      # whether to anonymize IP
+      anonymizeIP = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
