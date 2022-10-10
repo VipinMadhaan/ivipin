@@ -113,7 +113,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         pre = ""
         post = ""
         name = "Sitemap"
-        url = "/index.xml/"
+        url = "/sitemap.xml"
         title = ""
         weight = 2
     [languages.en.params]
@@ -165,10 +165,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # whether to enable param layout
         param = true
         # title for param layout
-        paramTitle = "Personal Information"
+        paramTitle = "Skills(8 Years)"
         # general description of your site
         # can be write with markdown style
-        description = ""
+        description = "Skills Description"
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
@@ -180,14 +180,25 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           desc = "Delhi, India"
         # description of your parameter
         [[languages.en.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
+          language = "NodeJS"
+          level = "50"
+          year = "4 Years"
         [[languages.en.params.about.parameter]]
-          language = "HTML"
-          level = "70"
+          language = "ReactJS"
+          level = "50"
+          year = "4 Years"
         [[languages.en.params.about.parameter]]
           language = "Go"
-          level = "60"
+          level = "10"
+          year = "1 Year"
+        [[languages.en.params.about.parameter]]
+          language = "Python"
+          level = "20"
+          year = "2 Years"
+        [[languages.en.params.about.parameter]]
+          language = "PHP"
+          level = "70"
+          year = "5 Years"
 
       # Home page config
       [languages.en.params.home]
