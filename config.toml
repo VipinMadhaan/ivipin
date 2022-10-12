@@ -10,7 +10,7 @@ title = "Vipin Kumar M"
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 enableEmoji = true
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
@@ -341,9 +341,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # whether to use the fontawesome as cdn source
     cdnfontawesome = false
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
-    # whether to show link to improve the article
-    improveArticle = "https://github.com/VipinMadhaan/FeelIt/edit/main/exampleSite/content/"
+    linkToMarkdown = false
+    # whether to show link to improve the article https://github.com/VipinMadhaan/iVipin/content/
+    improveArticle = ""
     # whether to show the full text content in RSS
     rssFullText = false
     # Table of the contents config
