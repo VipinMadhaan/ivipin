@@ -1,4 +1,4 @@
-## [![GitHub workflow](https://github.com/VipinMadhaan/vipinmadhaan.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/VipinMadhaan/vipinmadhaan.github.io/actions/workflows/pages/pages-build-deployment)
+## [![GitHub workflow](https://github.com/VipinMadhaan/iVipin/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/VipinMadhaan/iVipin/actions/workflows/pages/pages-build-deployment)
 
 # My Portfolio Website
 
