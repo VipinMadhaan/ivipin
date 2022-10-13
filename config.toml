@@ -28,7 +28,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 8
     # copyright description used only for seo schema
     copyright = "Vipin Kumar M"
     # Menu config

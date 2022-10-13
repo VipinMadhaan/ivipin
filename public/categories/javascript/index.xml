@@ -4,10 +4,19 @@
         <link>https://ivipin.com/categories/javascript/</link>
         <description>JavaScript - Category - Vipin Kumar M</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Vipin.Madhaan@gmail.com (Vipin Kumar M)</managingEditor>
-            <webMaster>Vipin.Madhaan@gmail.com (Vipin Kumar M)</webMaster><copyright>Vipin Kumar M</copyright><lastBuildDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</lastBuildDate><atom:link href="https://ivipin.com/categories/javascript/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Vipin.Madhaan@gmail.com (Vipin Kumar M)</webMaster><copyright>Vipin Kumar M</copyright><lastBuildDate>Thu, 13 Oct 2022 00:00:00 &#43;0530</lastBuildDate><atom:link href="https://ivipin.com/categories/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use JavaScript array push, unshift, pop, and shift methods</title>
+    <link>https://ivipin.com/how-to-use-javascript-array-push-unshift-pop-and-shift-method/</link>
+    <pubDate>Thu, 13 Oct 2022 00:00:00 &#43;0530</pubDate><author>Vipin.Madhaan@gmail.com (Vipin Kumar M)</author><guid>https://ivipin.com/how-to-use-javascript-array-push-unshift-pop-and-shift-method/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/javascript.webp" referrerpolicy="no-referrer">
+            </div>This article primarily introduces the JavaScript array Push, Unshift, Pop, and Shift methods, along with an example form for analyzing the JavaScript array Push, Unshift, Pop, and Shift methods for array addition, deletion, and other related operation skills.
+Push Method The Push method appends one or more elements to the end of the array and returns the array&rsquo;s new length. The explanation demonstrates that the push method only needs to add the elements to the end of the array in sequence, without changing the index of the original array elements.]]></description>
+</item>
+<item>
     <title>How to send GET and POST Ajax API requests in Vanilla JavaScript</title>
     <link>https://ivipin.com/how-to-send-get-and-post-ajax-api-requests-in-vanilla-javascript/</link>
-    <pubDate>Thu, 06 Oct 2022 11:58:42 &#43;0530</pubDate><author>Vipin.Madhaan@gmail.com (Vipin Kumar M)</author><guid>https://ivipin.com/how-to-send-get-and-post-ajax-api-requests-in-vanilla-javascript/</guid>
+    <pubDate>Thu, 06 Oct 2022 00:00:00 &#43;0530</pubDate><author>Vipin.Madhaan@gmail.com (Vipin Kumar M)</author><guid>https://ivipin.com/how-to-send-get-and-post-ajax-api-requests-in-vanilla-javascript/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/javascript.webp" referrerpolicy="no-referrer">
             </div>Ajax is an asynchronous JavaScript and XML mechanism for updating a portion of a page. It allows you to update a portion of the page after receiving data from the server, avoiding the need to refresh the entire page.
