@@ -118,7 +118,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         weight = 2
     [languages.en.params]
       # site description
-      description = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer. I'm here to share my knowledge and experience from over 8 years of web development."
+      description = "Hello, I'm Vipin Kumar M. I'm a passionate full-stack developer. I'm here to share my knowledge and experience from over 8 years of web development."
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -432,7 +432,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         category="Show and tell"
         category_id="DIC_kwDOIJKaTc4CR2BV"
         mapping="title"
-        reactions_enabled="1"
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
