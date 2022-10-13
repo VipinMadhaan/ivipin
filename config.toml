@@ -118,7 +118,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         weight = 2
     [languages.en.params]
       # site description
-      description = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you."
+      description = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer. I'm here to share my knowledge and experience from over 8 years of web development."
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
