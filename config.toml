@@ -6,6 +6,7 @@ theme = "FeelIt"
 
 # website title
 title = "Vipin Kumar M"
+authors = "VipinMadhaan"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -228,6 +229,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           paginate = 6
           # display image-preview
           imagePreview = true
+
+[Social]
+  twitter = "VipinMadhaan"
 
 [params]
   # FeelIt theme version
