@@ -607,7 +607,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   [params.verification]
     google = "Iv7Ykyoy37qO1y8uh_uz8MXCk5a6pH31QUg0_5kqNmM"
     bing = "883A41EABD86043CA9E5B963D526D641"
-    yandex = ""
+    yandex = "1f990bf33192771e"
     pinterest = "6cab42d499d5ef9f66cfddcb293a7775"
     baidu = ""
     followit = "dcC8BZLtJWjSqSKMfDQA"
