@@ -7,7 +7,7 @@ author: 'Vipin Kumar M'
 authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript array push, unshift, pop, and shift methods'
 featuredImage: '/javascript.webp'
-featuredImagePreview: '/javascript-preview.webp'
+featuredImagePreview: '/js.webp'
 tags: ['JavaScript', 'JS']
 categories: ['JavaScript']
 lightgallery: true
