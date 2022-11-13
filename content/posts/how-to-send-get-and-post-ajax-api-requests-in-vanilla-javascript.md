@@ -3,7 +3,7 @@ title: 'How to send GET and POST Ajax API requests in Vanilla JavaScript'
 date: 2022-10-06T00:00:00+05:30
 lastmod: 2022-10-06T00:00:00+05:30
 draft: false
-author: 'Vipin Kumar M'
+author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript GET or POST Ajax API requests without jQuery.'
 featuredImage: '/javascript.webp'

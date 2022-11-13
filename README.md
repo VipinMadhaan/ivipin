@@ -12,4 +12,4 @@ Hi 👋 This is the code of my personal portfolio website([ivipin.com](https://i
 
 ## License
 
-MIT © Vipin Kumar M
+MIT © Vipin Kumar Madhaan

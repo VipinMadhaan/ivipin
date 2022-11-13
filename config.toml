@@ -5,7 +5,7 @@ defaultContentLanguage = "en"
 theme = "FeelIt"
 
 # website title
-title = "Vipin Kumar M"
+title = "Vipin Kumar Madhaan"
 authors = "VipinMadhaan"
 
 # whether to use robots.txt
@@ -31,7 +31,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # default amount of posts in each pages
     paginate = 8
     # copyright description used only for seo schema
-    copyright = "Vipin Kumar M"
+    copyright = "Vipin Kumar Madhaan"
     # Menu config
     [languages.en.menu]
        [[languages.en.menu.main]]
@@ -125,7 +125,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "Vipin Kumar M"
+        title = "Vipin Kumar Madhaan"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -213,9 +213,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # URL of avatar shown in home page
           avatarURL = "/profile.webp"
           # title shown in home page (HTML format is supported)
-          title = "Vipin Kumar M"
+          title = "Vipin Kumar Madhaan"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "Hello, My name is Vipin Kumar M. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you."
+          subtitle = "Hello, My name is Vipin Kumar Madhaan. I'm a passionate full-stack developer from India, and I'm here to share my knowledge and experience from over 8 years of web development with you."
           # whether to use typeit animation for subtitle
           typeit = false
           # whether to show social links
@@ -267,7 +267,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # URL of the LOGO
       logo = "/logo.webp"
       # title name
-      name = "Vipin Kumar M"
+      name = "Vipin Kumar Madhaan"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -525,7 +525,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       images = ["/vipin.webp", "/logo.webp"]
       # Publisher info
       [params.page.seo.publisher]
-        name = "Vipin Kumar M"
+        name = "Vipin Kumar Madhaan"
         logoUrl = "/vipin.webp"
 
   # Social config in home page
@@ -696,7 +696,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 
 # Author config
 [author]
-  name = "Vipin Kumar M"
+  name = "Vipin Kumar Madhaan"
   email = "Vipin.Madhaan@gmail.com"
   link = "https://ivipin.com"
 
