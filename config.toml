@@ -182,15 +182,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # description of your parameter
         [[languages.en.params.about.parameter]]
           language = "NodeJS"
-          level = "50"
-          year = "4 Years"
+          level = "85"
+          year = "6 Years"
         [[languages.en.params.about.parameter]]
           language = "ReactJS"
-          level = "50"
-          year = "4 Years"
+          level = "85"
+          year = "6 Years"
         [[languages.en.params.about.parameter]]
           language = "Go"
-          level = "10"
+          level = "15"
           year = "1 Year"
         [[languages.en.params.about.parameter]]
           language = "Python"
@@ -198,8 +198,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           year = "2 Years"
         [[languages.en.params.about.parameter]]
           language = "PHP"
-          level = "70"
-          year = "5 Years"
+          level = "100"
+          year = "8 Years"
 
       # Home page config
       [languages.en.params.home]
