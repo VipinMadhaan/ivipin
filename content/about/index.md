@@ -27,4 +27,4 @@ Beyond my core expertise, I'm always eager to explore new technologies and trend
 
 #### Call to Action
 
-I'm always open to new challenges and opportunities to put my skills to the test. Feel free to browse my portfolio of open-source projects on [GitHub](https://github.com/VipinMadhaan) to get a glimpse of my work. If you have any questions, projects in mind, or simply want to connect, don't hesitate reach out to [here](/contact)!
+I'm always open to new challenges and opportunities to put my skills to the test. Feel free to browse my portfolio of open-source projects on [GitHub](https://github.com/VipinMadhaan) to get a glimpse of my work. If you have any questions, projects in mind, or simply want to connect, don't hesitate reach out to me [here](/contact)!

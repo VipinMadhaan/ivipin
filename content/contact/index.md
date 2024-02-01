@@ -10,7 +10,7 @@ comment = false
 
 I'm very open to messages, so, if you want to get in touch you send me a message using any of the methods below and I will get back to you as soon as possible as long as you don't ask to ask and express your intent clearly.
 
-You can use the following contact methods to get in touch for hiring me as well! For business works, the email mail@ivipin.com is preferred.
+You can use the following contact methods to get in touch with me. For business works, the email mail@ivipin.com is preferred.
 
 *   **[Twitter](https://twitter.com/VipinMadhaan)**: I usually respond faster to Twitter since it's my favourite social platform.
     
