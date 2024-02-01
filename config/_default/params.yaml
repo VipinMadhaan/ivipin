@@ -245,7 +245,7 @@ pwa:
     #   src: /images/icons/icon-144x144.png
 
 contact:
-  endpoint: https://formsubmit.io/send/Vipin.Madhaan@gmail.com # Backend endpoint, remove this line if you're using Netlify.
+  # endpoint: https://formsubmit.io/send/Vipin.Madhaan@gmail.com # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
