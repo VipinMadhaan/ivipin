@@ -1,0 +1,14 @@
+name: Vipin Kumar Madhaan
+# avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
+bio: 'Software Engineer & Technical Writer'
+# company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+location: India # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+# about: https://ivipin.com # The external about page. The internal about page will be used if not set.
+params: {
+  # layout: compact
+}
+social:
+  twitter: VipinMadhaan
+  linkedin: VipinMadhaan
+  github: VipinMadhaan
+  email: Vipin.Madhaan@gmail.com

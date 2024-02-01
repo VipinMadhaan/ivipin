@@ -1,0 +1,19 @@
+#post-content-body p {
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+}
+#post-content-body a,
+.post-summary p a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.top-app-bar .nav-link {
+  color: #e7e7e7;
+  &.active, &:hover {
+    color: #fff;
+  }
+}
+//:hover{background-color:#222;box-shadow:0 14px 25px rgba(0,0,0,.16)}
+//box-shadow: 0 5px 15px rgba(0,0,0,.08);

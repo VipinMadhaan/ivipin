@@ -1,0 +1,42 @@
+baseURL: https://ivipin.vom/
+title: Vipin Kumar Madhaan
+theme: hugo-theme-bootstrap
+copyright: 'Copyright © 2016-{year}. All Rights Reserved.'
+defaultContentLanguage: en
+# hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
+# defaultContentLanguageInSubdir: true
+# disableLanguages:
+#  - fr
+#  - zh-cn
+#  - zh-tw
+paginate: 10
+# paginatePath: page
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+blackfriday:
+  hrefTargetBlank: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  authors: authors
+
+build:
+  writeStats: true
+
+permalinks:
+  news: /news/:year/:month/:title/
+  blog: /:title/
+
+# module:
+  # proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname
+
+security.funcs:
+  getenv: ['^HUGO_', '^CI$', 'PWD']

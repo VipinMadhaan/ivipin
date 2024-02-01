@@ -1,0 +1,39 @@
+# main:
+#   - name: Home
+#     identifier: home
+#     weight: 1
+#     url: /
+#     params:
+#       icon : '<i class="fas fa-home"></i>'
+  
+footer:
+  - name: Home
+    identifier: home
+    weight: 1
+    url: /
+    params:
+      icon : '<i class="fas fa-home"></i>'
+  - name: About
+    identifier: about
+    weight: 2
+    url: /about
+    params:
+      icon : '<i class="fas fa-user"></i>'
+  - name: Contact
+    identifier: contact
+    weight: 3
+    url: /contact
+    params:
+      icon : '<i class="fas fa-question-circle"></i>'
+  - name: Privacy Policy
+    identifier: privacy-policy
+    weight: 4
+    url: /privacy-policy
+    params:
+      icon : '<i class="fas fa-info-circle"></i>'
+  - name: Sitemap
+    identifier: sitemap
+    weight: 5
+    url: /sitemap.xml
+    params:
+      icon : '<i class="fas fa-list"></i>'
