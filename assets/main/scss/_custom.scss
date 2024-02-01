@@ -1,6 +1,9 @@
+:root {
+  --#{$prefix}body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 #post-content-body p {
-  font-size: 1.15rem;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 #post-content-body a,
 .post-summary p a {
@@ -15,5 +18,4 @@
     color: #fff;
   }
 }
-//:hover{background-color:#222;box-shadow:0 14px 25px rgba(0,0,0,.16)}
-//box-shadow: 0 5px 15px rgba(0,0,0,.08);
+//box-shadow:0 14px 25px rgba(0,0,0,.16) = 0 5px 15px rgba(0,0,0,.08)
