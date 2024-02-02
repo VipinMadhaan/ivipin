@@ -19,7 +19,7 @@ This article primarily introduces the JavaScript array Push, Unshift, Pop, and S
 The Push method appends one or more elements to the end of the array and returns the array's new length.
 The explanation demonstrates that the push method only needs to add the elements to the end of the array in sequence, without changing the index of the original array elements.
 
-```js
+```javascript
 Array.prototype._push = function (...value) {
   for (var i = 0; i < arguments.length; i++) {
     this[this.length] = arguments[i];
@@ -40,7 +40,7 @@ When you use the unshift method to add elements to the array's head, the length 
 For example, to add just one element, you must shift the index of each array element to the right one by one. Assuming the initial array length is four, adding an element to the head increases the array length to five, and because it moves backward in sequence, its `array[5-1]` must now be the last element.
 So we can loop from the last element of the array to the next element, `array[i]` assign the value to the loop, `array[i - 1]` stop at 1, and assign the 0th item of the array to the value that needs to be added.
 
-```js
+```javascript
 Array.prototype._unshift = function (value) {
   for (let i = this.length; i > 0; i--) {
     this[i] = this[i - 1];
@@ -56,7 +56,7 @@ console.log(arr); // [ 8, 1, 2, 3, 4 ]
 
 The above code only adds one element to the head, but the unshift method allows you to add multiple elements. E.G:
 
-```js
+```javascript
 var arr = [1, 2, 3, 4];
 arr.unshift(8, 7);
 console.log(arr); // [ 8, 7, 1, 2, 3, 4 ]
@@ -67,7 +67,7 @@ In such a case, you should be aware of several parameters that have been entered
 The length of the new array is equal to the length of the original array plus the number of parameters. By looping from back to front and moving the final element of the original array to the final element of the new array, The starting point of the loop is the length of the original array plus the number of parameters. Because it is necessary to insert elements with the number of input parameters in the head. The endpoint of the loop is the number of input parameters.
 But since the index is always one element less than the length, the start and endpoints need to be decremented by one. Now you can write the logic of circular movement first.
 
-```js
+```javascript
 Array.prototype._unshift = function (...value) {
   for (var i = this.length + arguments.length - 1; i > arguments.length - 1; i--) {
     this[i] = this[i - arguments.length];
@@ -77,7 +77,7 @@ Array.prototype._unshift = function (...value) {
 
 In the previous step, the array head's position has been vacated, and the second step is to insert new elements. So you only need to loop through the arguments now.
 
-```js
+```javascript
 for (var k = 0; k < arguments.length; k++) {
   this[k] = arguments[k];
 }
@@ -85,7 +85,7 @@ for (var k = 0; k < arguments.length; k++) {
 
 The complete unshift method example:-
 
-```js
+```javascript
 Array.prototype._unshift = function(...value) {
   for (var i = (this.length + arguments.length - 1); i > arguments.length - 1; i--) {
     this[i] = this\[i - arguments.length]
@@ -106,7 +106,7 @@ console.log(arr); // [ 9, 8, 1, 2, 3, 4 ]
 The pop method deletes the last element of the array object, shortens the array by one, and returns the value of the deleted element. If the array is already empty, pop returns an undefined value rather than changing it.
 The pop method first saves the last element of the array to facilitate the return, then deletes the last element of the array and sets it to null, and finally determines whether the array is empty. The pop method shortens the array by one element.
 
-```js
+```javascript
 Array.prototype._pop = function () {
   if (!this.length) {
     return undefined;
@@ -127,7 +127,7 @@ console.log(arr); // [ 1, 2, 3 ]
 The shift method is used to delete the first element of the array and return the value of the first element.
 The deletion of a header modifies the index of the original array element, causing the index of the elements that have not been deleted to shift to the left. The deleted element must first be recorded for easy return, and then the array's first element is set to null. Finally, the shift method iterates through the array and changes the index for every element.
 
-```js
+```javascript
 Array.prototype._shift = function () {
   if (!this.length) {
     return undefined;

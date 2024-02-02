@@ -3,9 +3,13 @@
     Roboto, Oxygen, Ubuntu, system-ui, 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
-#post-content-body p {
+#post-content-body p, #post-content-body li {
   font-size: 1.2rem;
   line-height: 2rem;
+}
+pre code {
+  font-size: 15px;
+  line-height: 1.4rem;
 }
 #post-content-body a,
 .post-summary p a {
@@ -21,7 +25,7 @@
     color: #fff;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 580px) {
   .container {
     padding-left: 5px;
     padding-right: 5px;

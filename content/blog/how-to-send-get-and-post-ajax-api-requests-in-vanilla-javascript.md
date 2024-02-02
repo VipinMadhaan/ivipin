@@ -19,7 +19,7 @@ Furthermore, by integrating partial page refreshes in this manner, we not only p
 
 ## A simple Ajax request
 
-```js
+```javascript
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.open('GET', 'send-ajax-request-url');
 xmlhttp.send(null);
@@ -30,7 +30,7 @@ If you use the POST request method, the send method parameters should contain an
 
 ## Here's how we handle the server's response
 
-```js
+```javascript
 xmlhttp.onreadystatechange = function () {
   if (xmlhttp.readyState !== 4) return;
   if (xmlhttp.status === 200) {
@@ -47,7 +47,7 @@ Many people rely on jQuery because of the Ajax method's convenience. But JavaScr
 
 ## An example of a POST Ajax Request
 
-```js
+```javascript
 var xmlhttp;
 if (window.XMLHttpRequest) {
   xmlhttp = new XMLHttpRequest();
@@ -87,7 +87,7 @@ xmlhttp.onreadystatechange = function () {
 
 ## An example of a GET Ajax Request
 
-```js
+```javascript
 var xmlhttp;
 if (window.XMLHttpRequest) {
   xmlhttp = new XMLHttpRequest();
