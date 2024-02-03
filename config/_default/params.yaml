@@ -176,7 +176,7 @@ creativeCommons:
 giscus:
   repo: "VipinMadhaan/iVipin"
   repoId: "R_kgDOIJKaTQ"
-  category: "Show and tell"
+  category: "General"
   categoryId: "DIC_kwDOIJKaTc4CR2BV"
   # theme: "dark" # Default to auto.
   mapping: "title" # Default to pathname.
