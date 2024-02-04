@@ -1,7 +1,7 @@
 ---
 title: 'How to use JavaScript array push, unshift, pop, and shift methods'
-date: 2022-10-13T00:00:00+05:30
-lastmod: 2022-10-13T00:00:00+05:30
+date: 2023-10-13T00:00:00+05:30
+lastmod: 2023-10-13T00:00:00+05:30
 draft: false
 author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'

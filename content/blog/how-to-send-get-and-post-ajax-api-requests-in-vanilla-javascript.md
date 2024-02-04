@@ -1,7 +1,7 @@
 ---
 title: 'How to send GET and POST Ajax API requests in Vanilla JavaScript'
-date: 2022-10-06T00:00:00+05:30
-lastmod: 2022-10-06T00:00:00+05:30
+date: 2023-10-06T00:00:00+05:30
+lastmod: 2023-10-06T00:00:00+05:30
 draft: false
 author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
