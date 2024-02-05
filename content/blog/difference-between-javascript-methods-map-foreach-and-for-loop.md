@@ -3,6 +3,8 @@ title: 'Difference between Javascript methods map, forEach and for Loop'
 date: 2024-02-02T00:00:00+05:30
 lastmod: 2024-02-02T00:00:00+05:30
 draft: false
+pinned: true
+pinnedWeight: 1
 author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
 description: 'Understanding the Key Differences Between JavaScript methods map, forEach, and for Loop'
@@ -26,8 +28,6 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 
 - The classic workhorse for iterations, offering fine-grained control over index-based navigation.
 
-- Syntax:
-
   ```JavaScript
   for (let i = 0; i < arr.length; i++) {
       // Code to execute for each element
@@ -44,8 +44,6 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 
 - Executes a provided function once for each element in the array.
 
-- Syntax:
-
   ```JavaScript
   arr.forEach(function(element, index, array) {
       // Code to execute for each element
@@ -61,8 +59,6 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 **3.** `map`:
 
 - Creates a new array by applying a function to each element in the original array.
-
-- Syntax:
 
   ```JavaScript
   const newArr = arr.map(function(element, index, array) {

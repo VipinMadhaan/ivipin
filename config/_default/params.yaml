@@ -104,8 +104,8 @@ codeBlock:
   lineNos: false # true/false represents that show/hide the line numbers by default.
 
 post:
-  # excerpt: description
-  # excerptMaxLength: 120
+  excerpt: ''
+  excerptMaxLength: 215
   copyright: false # Whether to display copyright section on each post.
   # plainifyExcerpt: false # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
@@ -206,6 +206,13 @@ search:
   # apiKey: ""
   # indexName: ""
   # debug: true
+
+algolia:
+  appId: "K8FA9ZQS00"
+  apiKey: "4ac30f638afa728acd8e6eef8b6fd5a6"
+  indexName: "ivipin"
+  paginate: 10
+  stallThreshold: 500
 
 reward:
   alipay: images/reward/alipay.png

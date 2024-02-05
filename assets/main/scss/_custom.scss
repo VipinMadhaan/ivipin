@@ -1,12 +1,13 @@
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --#{$prefix}body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --#{$prefix}body-font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #post-content-body {
   p,
   li {
     font-size: 1.2rem;
     line-height: 2rem;
+    //font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 }
 b, strong {
