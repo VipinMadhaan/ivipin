@@ -210,7 +210,7 @@ search:
 algolia:
   appId: "K8FA9ZQS00"
   apiKey: "4ac30f638afa728acd8e6eef8b6fd5a6"
-  indexName: "ivipin"
+  indexName: "prod_ivipin"
   paginate: 10
   stallThreshold: 500
 

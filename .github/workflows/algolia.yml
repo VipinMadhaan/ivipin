@@ -17,4 +17,4 @@ jobs:
         with:
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          algolia-index-name: prod
+          algolia-index-name: prod_ivipin
