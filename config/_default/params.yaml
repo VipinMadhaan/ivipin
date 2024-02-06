@@ -207,12 +207,12 @@ search:
   # indexName: ""
   # debug: true
 
-algolia:
-  appId: "K8FA9ZQS00"
-  apiKey: "4ac30f638afa728acd8e6eef8b6fd5a6"
-  indexName: "prod_ivipin"
-  paginate: 10
-  stallThreshold: 500
+# algolia:
+#   appId: "K8FA9ZQS00"
+#   apiKey: "4ac30f638afa728acd8e6eef8b6fd5a6"
+#   indexName: "prod_ivipin"
+#   paginate: 10
+#   stallThreshold: 500
 
 reward:
   # alipay: images/reward/alipay.png
