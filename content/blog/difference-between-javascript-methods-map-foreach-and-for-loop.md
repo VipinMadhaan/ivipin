@@ -3,8 +3,6 @@ title: 'Difference between Javascript methods map, forEach and for Loop'
 date: 2024-02-02T00:00:00+05:30
 lastmod: 2024-02-02T00:00:00+05:30
 draft: false
-pinned: true
-pinnedWeight: 1
 author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
 description: 'Understanding the Key Differences Between JavaScript methods map, forEach, and for Loop'
