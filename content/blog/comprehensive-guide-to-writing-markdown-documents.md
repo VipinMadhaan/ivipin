@@ -165,8 +165,7 @@ URLs will be automatically converted to clickable links.
 Some Markdown processors support HTML comments (`<!-- -->`).
 
 ## Emoji
-
-That is so funny! :joy:
+To add emoji to your Markdown text, use the following syntax: `:emoji_name:`.
 
 ```markdown
 That is so funny! :joy:
