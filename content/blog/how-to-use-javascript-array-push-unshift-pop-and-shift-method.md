@@ -8,7 +8,7 @@ authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript array push, unshift, pop, and shift methods'
 # featuredImage: '/javascript.svg'
 tags: ['JavaScript']
-categories: ['JavaScript']
+categories: ['Development']
 lightgallery: true
 ---
 

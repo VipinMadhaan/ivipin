@@ -8,7 +8,7 @@ authorLink: 'https://ivipin.com/about'
 description: 'Guide to write JavaScript GET or POST Ajax API requests without jQuery.'
 # featuredImage: '/javascript.svg'
 tags: ['JavaScript', 'Ajax']
-categories: ['JavaScript']
+categories: ['Development']
 lightgallery: true
 ---
 

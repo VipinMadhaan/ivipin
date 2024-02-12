@@ -1,5 +1,5 @@
 ---
-title: 'A Comprehensive Guide to Writing Markdown Documents'
+title: 'Comprehensive Guide to Writing Markdown Documents'
 date: 2024-02-11T00:00:00+05:30
 lastmod: 2024-02-11T00:00:00+05:30
 draft: false
@@ -7,7 +7,7 @@ author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
 description: 'This is a comprehensive guide to writing Markdown documents.'
 tags: ['Markdown']
-categories: ['Markdown']
+categories: ['Development']
 ---
 
 Markdown is a lightweight markup language with plain-text formatting syntax designed to be easy to read and easy to write. Markdown documents can be used for various purposes such as writing documentation, creating README files, blogging, and more. Below is a comprehensive guide to writing Markdown documents:
@@ -184,12 +184,6 @@ X^2^
 
 You can also use other elements like abbr, sub, sup, kbd, mark.
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</br>
-H<sub>2</sub>O</br>
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></br>
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</br>
-Most <mark>salamanders</mark> are nocturnal.
-
 ```markdown
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 H<sub>2</sub>O
@@ -197,5 +191,12 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 Most <mark>salamanders</mark> are nocturnal.
 ```
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</br>
+H<sub>2</sub>O</br>
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></br>
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</br>
+Most <mark>salamanders</mark> are nocturnal.
+
 ## Conclusion
 Markdown is a versatile and easy-to-use markup language for creating formatted documents. With the above guide, you should be equipped to write Markdown documents for various purposes. Experiment with different features to create documents that suit your needs.
