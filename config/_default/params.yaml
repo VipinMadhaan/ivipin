@@ -185,6 +185,7 @@ giscus:
   # metadata: true # Emit discussion metadata.
   # lang: "en" # Specify language, default to site language.
   # lazyLoading: false # Default to true.
+  strict: true # strict mapping match default false
 
 search:
   # paginate: 5 # Pagination. Default to 10.
