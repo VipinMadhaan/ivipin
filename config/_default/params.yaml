@@ -177,10 +177,10 @@ giscus:
   repo: "VipinMadhaan/iVipin"
   repoId: "R_kgDOIJKaTQ"
   category: "General"
-  categoryId: "DIC_kwDOIJKaTc4CR2BV"
+  categoryId: "DIC_kwDOLMZCOc4Cc6Ut"
   # theme: "dark" # Default to auto.
   mapping: "og:title" # Default to pathname.
-  # inputPosition: "bottom" # Default to top.
+  inputPosition: "bottom" # Default to top.
   # reactions: false # Disable reactions.
   # metadata: true # Emit discussion metadata.
   # lang: "en" # Specify language, default to site language.
