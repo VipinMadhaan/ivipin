@@ -9,7 +9,7 @@ defaultContentLanguage: en
 #  - fr
 #  - zh-cn
 #  - zh-tw
-paginate: 10
+paginate: 8
 # paginatePath: page
 enableRobotsTXT: true
 enableEmoji: true
