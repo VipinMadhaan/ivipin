@@ -7,6 +7,7 @@ reward = false
 postDate = false
 readingTime = false
 numberifyHeadings = false
+postShare = false
 +++
 
 Hi there! I'm Vipin Kumar Madhaan, a Full Stack Lead Developer from India with over 10 years of experience in the world of web development. My passion lies in building web applications and web services that not only function well but also engage and delight users.

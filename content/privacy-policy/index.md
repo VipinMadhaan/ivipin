@@ -8,6 +8,7 @@ authorLink: 'https://ivipin.com/about'
 description: ''
 postFooter: false
 comment: false
+postShare: false
 ---
 
 ## Information that is gathered from visitors
