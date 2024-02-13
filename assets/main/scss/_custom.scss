@@ -1,17 +1,17 @@
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root {
-  --#{$prefix}body-font-family: Roboto, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial,
-    system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
-}
+// :root {
+//   --#{$prefix}body-font-family: Roboto, -apple-system, BlinkMacSystemFont,
+//     'Segoe UI', 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial,
+//     system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+//     'Segoe UI Symbol', 'Noto Color Emoji';
+// }
 @media screen and (min-width: 580px) {
   #post-content-body {
     p,
     li {
-      font-size: 1.2rem;
-      line-height: 2rem;
-      //font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 1.3rem;
+      line-height: 2.25rem;
+      font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     }
   }
 }

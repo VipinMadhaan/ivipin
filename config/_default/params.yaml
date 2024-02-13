@@ -222,11 +222,12 @@ reward:
   patreon: images/reward/patreon.png
   # liberapay: images/reward/liberapay.png
 
-#share:
-  #addThis:  # AddThis pubid.
+share:
+  # shareThis:  '6335dbf2bfbc4500128ccb08' # ShareThis pubid.
+  postShareButtons: true # sticky social network sharing default false
 
-#actionsPanel:
-  # disabled: true
+actionsPanel:
+  disabled: true
 
 # Comment or remove this settings to disable font size switcher.
 # fontSize:

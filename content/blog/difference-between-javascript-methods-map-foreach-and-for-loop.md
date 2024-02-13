@@ -28,9 +28,8 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 
   ```JavaScript
   for (let i = 0; i < arr.length; i++) {
-      // Code to execute for each element
+    // Code to execute for each element
   }
-  
   ```
 
 - Use cases:
@@ -44,9 +43,8 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 
   ```JavaScript
   arr.forEach(function(element, index, array) {
-      // Code to execute for each element
+    // Code to execute for each element
   });
-  
   ```
 
 - Use cases:
@@ -60,9 +58,8 @@ In the realm of JavaScript, iterating over elements in arrays is fundamental. Wh
 
   ```JavaScript
   const newArr = arr.map(function(element, index, array) {
-      return transformedElement;
+    return transformedElement;
   });
-  
   ```
 
 - Use cases:
