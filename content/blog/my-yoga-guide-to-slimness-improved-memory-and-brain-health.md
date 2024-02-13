@@ -5,6 +5,7 @@ lastmod: 2024-02-11T00:00:00+05:30
 draft: false
 pinned: true
 pinnedWeight: 1
+featured: true
 author: 'Vipin Kumar Madhaan'
 authorLink: 'https://ivipin.com/about'
 description: '' 
