@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-:root {
-  --#{$prefix}body-font-family-local:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --#{$prefix}body-font-family: 'Poppins', var(--#{$prefix}body-font-family-local);
-}
 @media screen and (min-width: 580px) {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  :root {
+    --#{$prefix}body-font-family-local:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --#{$prefix}body-font-family: 'Poppins', var(--#{$prefix}body-font-family-local);
+  }
   #post-content-body {
     p,
     li {
@@ -11,13 +11,13 @@
       line-height: 2rem;
     }
   }
+  .light, .lead, b, strong, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--#{$prefix}body-font-family-local);
+  }
 }
 b,
 strong {
   font-weight: 600;
-}
-.light, .lead, b, strong, h1, h2, h3, h4, h5, h6 {
-  font-family: var(--#{$prefix}body-font-family-local);
 }
 pre code {
   font-size: 15px;
