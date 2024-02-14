@@ -8,7 +8,6 @@ authorLink: 'https://ivipin.com/about'
 description: 'How to land a remote job as a experinced developer'
 tags: ['Career']
 categories: ['Career']
-postSidebar: false
 ---
 
 Okay, so you've been grinding away in the trenches of web development, mastering your craft and dreaming of escaping the fluorescent purgatory that is your office. The good news? The remote revolution is here, and with your experience, you're perfectly positioned to snag your dream remote gig. But let's be real, navigating the remote job landscape can feel like wrangling a rogue server – confusing and frustrating. Fear not, fellow coder, for this guide is your secret weapon.
