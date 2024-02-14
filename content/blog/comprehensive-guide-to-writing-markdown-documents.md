@@ -8,6 +8,7 @@ authorLink: 'https://ivipin.com/about'
 description: 'This is a comprehensive guide to writing Markdown documents.'
 tags: ['Markdown']
 categories: ['Development']
+postSidebar: false
 ---
 
 Markdown is a lightweight markup language with plain-text formatting syntax designed to be easy to read and easy to write. Markdown documents can be used for various purposes such as writing documentation, creating README files, blogging, and more. Below is a comprehensive guide to writing Markdown documents:

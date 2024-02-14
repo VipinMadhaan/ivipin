@@ -8,6 +8,7 @@ authorLink: 'https://ivipin.com/about'
 description: 'Understanding JavaScript Arrow Functions'
 tags: ['JavaScript']
 categories: ['Development']
+postSidebar: false
 ---
 
 JavaScript's ES6 standard introduced a new way to write functions: arrow functions. These functions use the `=>` symbol and offer several advantages, making them popular in modern JavaScript.

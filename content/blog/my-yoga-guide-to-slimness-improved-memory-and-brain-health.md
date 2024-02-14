@@ -11,6 +11,7 @@ authorLink: 'https://ivipin.com/about'
 description: '' 
 tags: ['Health']
 categories: ['Health']
+postSidebar: false
 ---
 
 Welcome to my blog! Today I am sharing my yoga routine aimed at achieving physical fitness, enhancing memory, and promoting overall brain health. I understand the importance of maintaining a healthy lifestyle, both physically and mentally. Through years of practice and exploration, I've curated a yoga program that not only helps me stay slim and fit but also boosts my cognitive functions and memory retention. Join me on this journey as I outline the key elements of my yoga routine and how they contribute to a balanced and vibrant life.

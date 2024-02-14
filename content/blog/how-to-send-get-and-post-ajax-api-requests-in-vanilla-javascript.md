@@ -10,6 +10,7 @@ description: 'Guide to write JavaScript GET or POST Ajax API requests without jQ
 tags: ['JavaScript', 'Ajax']
 categories: ['Development']
 lightgallery: true
+postSidebar: false
 ---
 
 Ajax is an asynchronous JavaScript and XML mechanism for updating a portion of a page.

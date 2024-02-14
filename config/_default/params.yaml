@@ -44,7 +44,7 @@ dateFormat: ":date_long"
 googleAdsense: 
 
 # math: true # Enable math globally.
-toc: false # Disable TOC globally.
+# toc: false # Disable TOC globally.
 # tocPosition: content
 # breadcrumb: false # Disable breadcrumb
 # breadcrumbDivider: > # Breadcrumb divider
