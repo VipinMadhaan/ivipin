@@ -41,3 +41,20 @@ pre code {
 .container {
   max-width: 1200px;
 }
+.ads-left {
+  left: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ads-right {
+  right: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 1520px) {
+  .ads-left, .ads-right {
+    display: none;
+  }
+}
