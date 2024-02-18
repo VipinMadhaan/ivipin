@@ -41,7 +41,7 @@ color: light # light, dark or auto. Default to auto.
 dateFormat: ":date_long"
 
 # Google Adsense
-googleAdsense: 
+googleAdsense: "ca-pub-8727058543696402"
 
 # math: true # Enable math globally.
 # toc: false # Disable TOC globally.
