@@ -32,14 +32,22 @@ pre code {
     color: #fff;
   }
 }
+.container {
+  max-width: 1200px;
+}
 @media screen and (max-width: 580px) {
   .container {
     padding-left: 5px;
     padding-right: 5px;
   }
+  .desktop-ads {
+    display: none;
+  }
 }
-.container {
-  max-width: 1200px;
+@media screen and (min-width: 581px) {
+  .mobile-ads {
+    display: none;
+  }
 }
 .ads-left {
   left: 0;
