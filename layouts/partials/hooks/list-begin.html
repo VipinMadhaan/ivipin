@@ -8,9 +8,9 @@
         width: 728,
         params: {}
       };
-      document.write(
-        '<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/11d62ecd2e7498dccd65532382db78d5/invoke.js"></scr' + 'ipt>'
-      );
+      if (window.screen.width > 728) {
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/11d62ecd2e7498dccd65532382db78d5/invoke.js"></scr' + 'ipt>');
+      }
     </script>
   </div>
 </div>
@@ -24,7 +24,9 @@
         'width' : 320,
         'params' : {}
       };
-      document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/20c02bdd1a6ee5d2fd6704c35bf678e3/invoke.js"></scr' + 'ipt>');
+      if (window.screen.width <= 728) {
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/20c02bdd1a6ee5d2fd6704c35bf678e3/invoke.js"></scr' + 'ipt>');
+      }
     </script>
   </div>
 </div>
